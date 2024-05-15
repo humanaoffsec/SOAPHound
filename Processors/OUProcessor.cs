@@ -1,6 +1,6 @@
-﻿using SOAPHound.ADWS;
-using SOAPHound.Enums;
-using SOAPHound.OutputTypes;
+﻿using RSC_HUMAD.ADWS;
+using RSC_HUMAD.Enums;
+using RSC_HUMAD.OutputTypes;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -10,7 +10,7 @@ using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SOAPHound.Processors
+namespace RSC_HUMAD.Processors
 {
     class OUProcessor
     {

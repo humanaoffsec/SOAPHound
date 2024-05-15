@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SOAPHound.Enums;
-using SOAPHound.ADWS;
-using SOAPHound.Processors;
-using SOAPHound.OutputTypes;
+using RSC_HUMAD.Enums;
+using RSC_HUMAD.ADWS;
+using RSC_HUMAD.Processors;
+using RSC_HUMAD.OutputTypes;
 using System.Net;
 using System.Text.RegularExpressions;
 using System.Diagnostics;
 
-namespace SOAPHound
+namespace RSC_HUMAD
 {
     static class ADWSUtils
     {

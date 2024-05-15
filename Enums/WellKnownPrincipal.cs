@@ -1,7 +1,7 @@
-﻿using SOAPHound.Enums;
-using SOAPHound.OutputTypes;
+﻿using RSC_HUMAD.Enums;
+using RSC_HUMAD.OutputTypes;
 
-namespace SOAPHound.Enums
+namespace RSC_HUMAD.Enums
 {
     public static class WellKnownPrincipal
     {

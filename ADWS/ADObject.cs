@@ -9,7 +9,7 @@ using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SOAPHound.ADWS
+namespace RSC_HUMAD.ADWS
 {
     public class ADObject
     {

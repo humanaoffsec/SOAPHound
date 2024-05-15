@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using SOAPHound.Enums;
+using RSC_HUMAD.Enums;
 using Newtonsoft.Json;
 
-namespace SOAPHound.ADWS
+namespace RSC_HUMAD.ADWS
 {
 
     public class OutputCA

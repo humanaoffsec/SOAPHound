@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33214.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOAPHound", "SOAPHound.csproj", "{33571B09-4E94-43CB-ABDC-0226D769E701}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSC_HUMAD", "RSC_HUMAD.csproj", "{33571B09-4E94-43CB-ABDC-0226D769E701}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

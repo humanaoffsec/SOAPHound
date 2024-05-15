@@ -7,12 +7,12 @@ using CommandLine;
 using CommandLine.Text;
 using System.Collections.Generic;
 using Newtonsoft.Json;
-using SOAPHound.ADWS;
-using SOAPHound.Enums;
-using SOAPHound.Processors;
+using RSC_HUMAD.ADWS;
+using RSC_HUMAD.Enums;
+using RSC_HUMAD.Processors;
 using System.Linq;
 
-namespace SOAPHound
+namespace RSC_HUMAD
 {
     public class Program
     {
@@ -81,8 +81,8 @@ namespace SOAPHound
             var helpText = HelpText.AutoBuild(result, h =>
             {
                 h.AdditionalNewLineAfterOption = false;
-                h.Heading = "SOAPHound";
-                h.Copyright = "Copyright (c) 2024 FalconForce";
+                h.Heading = "RSC_HUMAD";
+                h.Copyright = "Copyright (c) 2024 Humana, Inc.";
                 h.AutoVersion = false;
                 h.MaximumDisplayWidth = 300;
                 return HelpText.DefaultParsingErrorsHandler(result, h);

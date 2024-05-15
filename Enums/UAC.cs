@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SOAPHound.Enums
+namespace RSC_HUMAD.Enums
 {
     [Flags]
     public enum UacFlags

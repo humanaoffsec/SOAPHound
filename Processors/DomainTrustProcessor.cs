@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.DirectoryServices.Protocols;
 using System.Security.Principal;
-using SOAPHound.ADWS;
-using SOAPHound.Enums;
-using SOAPHound.OutputTypes;
+using RSC_HUMAD.ADWS;
+using RSC_HUMAD.Enums;
+using RSC_HUMAD.OutputTypes;
 
-namespace SOAPHound.Processors
+namespace RSC_HUMAD.Processors
 {
     public class DomainTrustProcessor
     {

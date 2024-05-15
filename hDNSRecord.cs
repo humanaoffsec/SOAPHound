@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace SOAPHound
+namespace RSC_HUMAD
 {
     class hDNSRecord
     {

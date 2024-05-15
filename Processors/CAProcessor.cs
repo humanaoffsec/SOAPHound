@@ -1,9 +1,9 @@
-﻿using SOAPHound.ADWS;
-using SOAPHound.Enums;
+﻿using RSC_HUMAD.ADWS;
+using RSC_HUMAD.Enums;
 using System;
 using System.Linq;
 
-namespace SOAPHound.Processors
+namespace RSC_HUMAD.Processors
 {
     class CAProcessor
     {

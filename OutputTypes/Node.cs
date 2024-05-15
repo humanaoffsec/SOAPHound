@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using SOAPHound.OutputTypes;
-using SOAPHound.Enums;
+using RSC_HUMAD.OutputTypes;
+using RSC_HUMAD.Enums;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace SOAPHound.ADWS
+namespace RSC_HUMAD.ADWS
 {
     public class Meta
     {

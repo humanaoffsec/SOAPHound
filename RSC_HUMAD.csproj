@@ -7,15 +7,16 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{33571B09-4E94-43CB-ABDC-0226D769E701}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SOAPHound</RootNamespace>
-    <AssemblyName>SOAPHound</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RootNamespace>RSC_HUMAD</RootNamespace>
+    <AssemblyName>RSC_HUMAD</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <LangVersion>8.0</LangVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -230,6 +231,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="LICENSE" />
     <None Include="packages.config" />
     <None Include="Properties\DataSources\System.ServiceModel.Channels.Message.datasource" />

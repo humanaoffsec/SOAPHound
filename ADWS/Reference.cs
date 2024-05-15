@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SOAPHound.ADWS
+namespace RSC_HUMAD.ADWS
 {
     using System.Runtime.Serialization;
 

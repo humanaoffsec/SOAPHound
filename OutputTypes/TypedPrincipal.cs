@@ -1,8 +1,8 @@
-﻿using SOAPHound.Enums;
+﻿using RSC_HUMAD.Enums;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace SOAPHound.OutputTypes
+namespace RSC_HUMAD.OutputTypes
 {
     public class TypedPrincipal
     {

@@ -1,4 +1,4 @@
-﻿namespace SOAPHound.Enums
+﻿namespace RSC_HUMAD.Enums
 {
     public enum Label
     {

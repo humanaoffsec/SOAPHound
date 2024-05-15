@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using CommandLine;
 using CommandLine.Text;
 
-namespace SOAPHound
+namespace RSC_HUMAD
 {
     public class Options
     {

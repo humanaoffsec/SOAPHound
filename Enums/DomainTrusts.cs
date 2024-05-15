@@ -2,7 +2,7 @@
 using Newtonsoft.Json.Converters;
 using System;
 
-namespace SOAPHound.Enums
+namespace RSC_HUMAD.Enums
 {
     [JsonConverter(typeof(StringEnumConverter))]
     public enum TrustDirection

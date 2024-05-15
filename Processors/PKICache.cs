@@ -1,10 +1,10 @@
 ﻿using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
-using SOAPHound.Enums;
-using SOAPHound.OutputTypes;
+using RSC_HUMAD.Enums;
+using RSC_HUMAD.OutputTypes;
 
-namespace SOAPHound.Processors
+namespace RSC_HUMAD.Processors
 {
 
     public static class PKICache

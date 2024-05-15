@@ -16,7 +16,7 @@ using System.Net;
 using System.Security.Cryptography.X509Certificates;
 using System.Text.RegularExpressions;
 
-namespace SOAPHound.ADWS
+namespace RSC_HUMAD.ADWS
 {
     internal class ADWSConnector
     {

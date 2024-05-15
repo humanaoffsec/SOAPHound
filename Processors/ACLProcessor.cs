@@ -4,13 +4,13 @@ using System.Collections.Generic;
 using System.DirectoryServices;
 using System.Security.AccessControl;
 using System.Security.Principal;
-using SOAPHound.Enums;
-using SOAPHound.ADWS;
-using SOAPHound.OutputTypes;
-using SOAPHound;
+using RSC_HUMAD.Enums;
+using RSC_HUMAD.ADWS;
+using RSC_HUMAD.OutputTypes;
+using RSC_HUMAD;
 using System.Linq;
 
-namespace SOAPHound.Processors
+namespace RSC_HUMAD.Processors
 {
     public static class ACLProcessor
     {
