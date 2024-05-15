@@ -39,24 +39,20 @@ namespace SOAPHound
                     break;
                 case "cache":
                     banner = "Generating cache";
-                    ldapquery = "(!soaphound=*)";
                     properties = new string[] { "objectSid", "objectGUID", "distinguishedName" };
                     break;
                 case "pkicache":
                     banner = "Gathering PKI cache";
-                    ldapquery = "(!soaphound=*)";
                     properties = new string[] { "name", "certificateTemplates" };
                     ldapbase = "CN=Configuration,";
                     break;
                 case "pkidata":
                     banner = "Gathering PKI data";
-                    ldapquery = "(!soaphound=*)";
                     properties = new string[] { "name", "displayName", "nTSecurityDescriptor", "objectGUID", "dNSHostName", "nTSecurityDescriptor", "certificateTemplates", "cACertificate", "msPKI-Minimal-Key-Size", "msPKI-Certificate-Name-Flag", "msPKI-Enrollment-Flag", "msPKI-Private-Key-Flag", "pKIExtendedKeyUsage", "pKIOverlapPeriod", "pKIExpirationPeriod" };
                     ldapbase = "CN=Configuration,";
                     break;
                 case "ad":
                     banner = "Gathering AD data";
-                    ldapquery = "(!soaphound=*)";
                     if (nolaps)
                     {
                         properties = new string[] { "name", "sAMAccountName", "cn", "dNSHostName", "objectSid", "objectGUID", "primaryGroupID", "distinguishedName", "lastLogonTimestamp", "pwdLastSet", "servicePrincipalName", "description", "operatingSystem", "sIDHistory", "nTSecurityDescriptor", "userAccountControl", "whenCreated", "lastLogon", "displayName", "title", "homeDirectory", "userPassword", "unixUserPassword", "scriptPath", "adminCount", "member", "msDS-Behavior-Version", "msDS-AllowedToDelegateTo", "gPCFileSysPath", "gPLink", "gPOptions" };
